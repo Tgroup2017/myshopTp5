@@ -13,7 +13,7 @@ return [
    'username'        => 'root',
     // 密码
     // 'password'        => 'adminui',
-   'password'        => 'root',
+   'password'        => 'wgg@aly@mysql@2018',
     // 端口
     'hostport'        => '3306',
     // 连接dsn
