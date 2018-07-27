@@ -1,0 +1,1796 @@
+---------------------------------------------------------------
+[ 2017-12-11T00:03:52+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T00:53:52+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T01:43:52+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T02:33:52+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T03:23:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T04:13:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T05:03:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T05:53:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.055004s][吞吐率：18.18req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T06:43:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T07:33:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T08:23:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T09:13:53+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,124.59kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:18+08:00 ] 127.0.0.8 127.0.0.1 GET /admin
+[ info ] 127.0.0.8/admin [运行时间：0.323019s][吞吐率：3.10req/s] [内存消耗：5,251.53kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 0 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:19+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/publics/login.shtml
+[ info ] 127.0.0.8/admin/publics/login.shtml [运行时间：0.284017s][吞吐率：3.52req/s] [内存消耗：5,415.22kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Publics->login[ D:\phpStudy\WWW\adminui\application\admin\controller\Publics.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\publics\login.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/publics/login.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:28+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/publics/login.shtml
+[ info ] 127.0.0.8/admin/publics/login.shtml [运行时间：0.175010s][吞吐率：5.71req/s] [内存消耗：2,303.90kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'publics',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/publics/login.shtml',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '30',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Publics->login[ D:\phpStudy\WWW\adminui\application\admin\controller\Publics.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/publics/login.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `account` = 'admin' ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_auth_group` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT `status` FROM `ui_auth_group` WHERE (  `group_id` = 1 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `ui_admin`  SET `last_login_time`=1512979348,`last_login_ip`='127.0.0.1',`login_status`=1,`update_time`=1512979348  WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `account` = 'admin' ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_log` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] INSERT INTO `ui_log` (`admin_id` , `module` , `controller` , `action` , `data_id` , `des` , `create_time` , `update_time`) VALUES (1 , 'admin' , 'Publics' , 'login' , 'admin' , '登录系统' , 1512979348 , 1512979348) [ RunTime:0.011001s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:29+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/index/index.shtml
+[ info ] 127.0.0.8/admin/index/index.shtml [运行时间：0.276016s][吞吐率：3.62req/s] [内存消耗：2,709.24kb] [文件加载：59]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/publics/login.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\WWW\adminui\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\index\index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'menus',
+  16 => 'headimg',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 0 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `menu_id` FROM `ui_menu` WHERE `ui_menu`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`module`,`controller`,`action` FROM `ui_menu` WHERE (  `menu_id` IN (2,3,4,5,12,13,45,62,63,64,68,69,72,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,190,191,192,193,194,195,196,197,198,199,200,205,206,207,208,209,213,214,215,217,218,219,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236) ) AND `ui_menu`.`delete_time` IS NULL [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `pid` FROM `ui_menu` WHERE (  `menu_id` IN (2,3,4,5,12,13,45,62,63,64,68,69,72,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,190,191,192,193,194,195,196,197,198,199,200,205,206,207,208,209,213,214,215,217,218,219,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236)  AND `status` = 1  AND `pid` <> 0 ) AND `ui_menu`.`delete_time` IS NULL [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `pid` FROM `ui_menu` WHERE (  `menu_id` IN (83,5,45,74,205,98,100)  AND `status` = 1  AND `pid` <> 0 ) AND `ui_menu`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` IN (2,3,4,5,12,13,45,62,63,64,68,69,72,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,190,191,192,193,194,195,196,197,198,199,200,205,206,207,208,209,213,214,215,217,218,219,221,222,223,224,225,226,227,228,229,230,231,232,233,234,235,236)  AND `status` = 1 ) AND `ui_menu`.`delete_time` IS NULL ORDER BY `sort`  asc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_auth_group` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `group_name` FROM `ui_auth_group` WHERE (  `group_id` = 1 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:30+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/index/main.shtml
+[ info ] 127.0.0.8/admin/index/main.shtml [运行时间：0.241014s][吞吐率：4.15req/s] [内存消耗：5,364.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\phpStudy\WWW\adminui\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/main.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:30+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,124.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:33+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/index.shtml
+[ info ] 127.0.0.8/admin/good/index.shtml [运行时间：0.537030s][吞吐率：1.86req/s] [内存消耗：6,360.41kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->index[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'goods',
+  16 => 'brands',
+  17 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 100 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_brand` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE `ui_goods_brand`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_cate` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `pid` = 0 ) AND `ui_goods_cate`.`delete_time` IS NULL [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_goods` WHERE (  `is_check` = 1 ) AND `ui_goods`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods` WHERE (  `is_check` = 1 ) AND `ui_goods`.`delete_time` IS NULL LIMIT 0,15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 1 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 4 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_shop` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 2 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 4 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 3 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 5 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 10 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 14 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 78 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 78 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 9 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 9 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:36+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/cate_index.shtml
+[ info ] 127.0.0.8/admin/good/cate_index.shtml [运行时间：0.369022s][吞吐率：2.71req/s] [内存消耗：6,206.58kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'cate_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->cate_index[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\cate_index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/cate_index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 100 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_cate` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE `ui_goods_cate`.`delete_time` IS NULL [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:39+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/attr_index.shtml
+[ info ] 127.0.0.8/admin/good/attr_index.shtml [运行时间：0.317018s][吞吐率：3.15req/s] [内存消耗：5,810.69kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'attr_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->attr_index[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\attr_index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'attrs',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/attr_index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 100 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_attr` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_goods_attr` WHERE `ui_goods_attr`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_attr` WHERE `ui_goods_attr`.`delete_time` IS NULL LIMIT 0,15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:41+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/check_index.shtml
+[ info ] 127.0.0.8/admin/good/check_index.shtml [运行时间：0.358021s][吞吐率：2.79req/s] [内存消耗：6,484.91kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'check_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->check_index[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\check_index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'goods',
+  16 => 'brands',
+  17 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/check_index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 100 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_brand` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE `ui_goods_brand`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_cate` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `pid` = 0 ) AND `ui_goods_cate`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_goods` WHERE (  `is_check` <> 1 ) AND `ui_goods`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods` WHERE (  `is_check` <> 1 ) AND `ui_goods`.`delete_time` IS NULL LIMIT 0,15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_shop` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` IS NULL ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` IS NULL ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` IS NULL ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 24 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 162 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 147 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 147 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 147 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 147 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 147 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 10 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 178 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 23 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 158 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 983 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 983 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 983 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 983 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 0 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 1 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_cate` WHERE (  `cate_id` = 983 ) AND `ui_goods_cate`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `shop_id` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:46+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/brand_index.shtml
+[ info ] 127.0.0.8/admin/good/brand_index.shtml [运行时间：0.260015s][吞吐率：3.85req/s] [内存消耗：5,811.52kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'brand_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->brand_index[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\brand_index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'brands',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/brand_index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 100 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_brand` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_goods_brand` WHERE `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE `ui_goods_brand`.`delete_time` IS NULL ORDER BY brand_id desc LIMIT 0,15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:54+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/shops/nav_index.shtml
+[ info ] 127.0.0.8/admin/shops/nav_index.shtml [运行时间：0.308017s][吞吐率：3.25req/s] [内存消耗：2,658.45kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'shops',
+    2 => 'nav_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Shops->nav_index[ D:\phpStudy\WWW\adminui\application\admin\controller\Shops.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\shops\nav_index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/shops/nav_index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 205 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_shopcate` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_shopcate` WHERE `ui_goods_shopcate`.`delete_time` IS NULL ORDER BY id,sort [ RunTime:0.003000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:56+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/shops/index.shtml
+[ info ] 127.0.0.8/admin/shops/index.shtml [运行时间：0.308018s][吞吐率：3.25req/s] [内存消耗：5,828.27kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'shops',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Shops->index[ D:\phpStudy\WWW\adminui\application\admin\controller\Shops.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\shops\index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'shops',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/shops/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 205 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_shop` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_shop` WHERE (  `is_check` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `is_check` = 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 0,15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_user` [ RunTime:0.026002s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_user` WHERE (  `user_id` = 1 ) AND `ui_user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `city_id` = 21 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `city_id` = 254 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_user` WHERE (  `user_id` = 2 ) AND `ui_user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `city_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `city_id` = 33 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:02:58+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/shops/check_index.shtml
+[ info ] 127.0.0.8/admin/shops/check_index.shtml [运行时间：0.330019s][吞吐率：3.03req/s] [内存消耗：5,694.73kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'shops',
+    2 => 'check_index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Shops->check_index[ D:\phpStudy\WWW\adminui\application\admin\controller\Shops.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\shops\check_index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'shops',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/shops/check_index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 205 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_shop` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_shop` WHERE (  `is_check` <> 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.011001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_shop` WHERE (  `is_check` <> 1 ) AND `ui_shop`.`delete_time` IS NULL LIMIT 0,15 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:03:02+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/menus/index.shtml
+[ info ] 127.0.0.8/admin/menus/index.shtml [运行时间：0.317019s][吞吐率：3.15req/s] [内存消耗：3,527.78kb] [文件加载：57]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'menus',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Menus->index[ D:\phpStudy\WWW\adminui\application\admin\controller\Menus.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\menus\index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'tree',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/menus/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 83 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `status` <> -1 ) AND `ui_menu`.`delete_time` IS NULL ORDER BY `sort`  asc [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:04:04+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/edit_brand/brand_id/30/page/1.shtml
+[ info ] 127.0.0.8/admin/good/edit_brand/brand_id/30/page/1.shtml [运行时间：0.298018s][吞吐率：3.36req/s] [内存消耗：5,657.46kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'edit_brand',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/good/brand_index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+  'brand_id' => '30',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->edit_brand[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\edit_brand.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'brand_info',
+  16 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/edit_brand.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 104 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_brand` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_brand` WHERE (  `brand_id` = 30 ) AND `ui_goods_brand`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:04:11+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/good/edit_attr/attr_id/1/page/1.shtml
+[ info ] 127.0.0.8/admin/good/edit_attr/attr_id/1/page/1.shtml [运行时间：0.292017s][吞吐率：3.42req/s] [内存消耗：5,669.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'good',
+    2 => 'edit_attr',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/good/attr_index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+  'attr_id' => '1',
+  'page' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Good->edit_attr[ D:\phpStudy\WWW\adminui\application\admin\controller\Good.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\good\edit_attr.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'attr_info',
+  16 => 'page',
+  17 => 'input_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/good/edit_attr.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 106 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_goods_attr` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_goods_attr` WHERE (  `attr_id` = 1 ) AND `ui_goods_attr`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T16:52:30+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.053004s][吞吐率：18.87req/s] [内存消耗：2,124.58kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T17:42:30+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,124.57kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]
+---------------------------------------------------------------
+[ 2017-12-11T18:04:53+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/users/index.shtml
+[ info ] 127.0.0.8/admin/users/index.shtml [运行时间：0.322019s][吞吐率：3.11req/s] [内存消耗：5,693.30kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'users',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Users->index[ D:\phpStudy\WWW\adminui\application\admin\controller\Users.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\users\index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'lists',
+  16 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/users/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 5 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_user` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_user` WHERE `ui_user`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_user` WHERE `ui_user`.`delete_time` IS NULL ORDER BY user_id desc LIMIT 0,15 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2017-12-11T18:04:58+08:00 ] 127.0.0.8 127.0.0.1 GET /admin/admins/index.shtml
+[ info ] 127.0.0.8/admin/admins/index.shtml [运行时间：0.308018s][吞吐率：3.25req/s] [内存消耗：5,715.27kb] [文件加载：61]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admins',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Admins->index[ D:\phpStudy\WWW\adminui\application\admin\controller\Admins.php ]
+[ info ] [ VIEW ] D:\phpStudy\WWW\adminui/public\theme\admin\admins\index.html [ array (
+  0 => 'module_name',
+  1 => 'controller_name',
+  2 => 'action_name',
+  3 => 'public_path',
+  4 => 'static_path',
+  5 => 'web_public',
+  6 => 'web_static',
+  7 => 'js',
+  8 => 'css',
+  9 => 'img',
+  10 => 'title',
+  11 => 'admin_title',
+  12 => 'nowpage',
+  13 => 'upload',
+  14 => 'menu',
+  15 => 'admins',
+  16 => 'authGroup',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_config` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_config` WHERE `ui_config`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_city` WHERE  `pid` <> 0 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/admins/index.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `menu_id` = 45 ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_admin` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `admin_id` = 1 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_auth_group` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  (  group_id != 1 ) ) AND `ui_auth_group`.`delete_time` IS NULL [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ui_admin` WHERE (  `status` >= 0 ) AND `ui_admin`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_admin` WHERE (  `status` >= 0 ) AND `ui_admin`.`delete_time` IS NULL ORDER BY admin_id asc LIMIT 0,15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 1 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 3 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_auth_group` WHERE (  `group_id` = 2 ) AND `ui_auth_group`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2017-12-11T18:32:30+08:00 ] 127.0.0.8 127.0.0.1 POST /admin/index/isuniquelogin.shtml
+[ info ] 127.0.0.8/admin/index/isuniquelogin.shtml [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,124.58kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpStudy\WWW\adminui\frame\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'isuniquelogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=ribqoogdbncbhb3vtendi013n7',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://127.0.0.8/admin/index/index.shtml',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://127.0.0.8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '127.0.0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=adminui;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ui_menu` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `ui_menu` WHERE (  `url` = '/admin/index/isuniquelogin.shtml' ) AND `ui_menu`.`delete_time` IS NULL LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]session_start(): Cannot send session cache limiter - headers already sent[D:\phpStudy\WWW\adminui\frame\library\think\Session.php:122]

@@ -1,0 +1,185 @@
+<div class="panel panel-default">
+    <form role="form" action="{:url('good/index')}" class="panel-body hidden-xs form-inline">
+                <div class="form-group">
+                    <input type="text" placeholder="商品名称" id="ex1" class="form-control" name="goods_name" value="{:input('goods_name')}">
+                </div>
+                <div class="form-group group1">
+                   <input type="text" name="statr_time" class="form-control i-datestart" id="date3" placeholder="发布时间" js-icon='false' value="{:input('statr_time')}">
+                </div>
+                <div class="form-group group2">
+                   <input type="text" name="end_time" class="form-control i-datestart" id="date3" placeholder="发布时间" value="{:input('end_time')}">
+                </div>
+                <div class="form-group">
+                    <select  class="form-control"  name="brand_id">
+                        <option value="">-- 品牌查询 --</option>
+                        {volist name="brands" id="vo"}
+                        <option value="{$vo.brand_id}" {if condition="input('brand_id') ==$vo.brand_id"}selected{/if}>{$vo.brand_name}</option>
+
+                        {/volist}
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="商品编码" id="ex1" class="form-control" name="goods_sn" value="{:input('goods_sn')}">
+                </div>
+
+
+                <div class="form-group">
+                    <select   class="form-control"  name="cate_id1"  onchange="get_cate(this,'cate1')">
+                        <option value="">-- 一级类别 --</option>
+                        {volist name="cates" id="vo"}
+                            <option value="{$vo.cate_id}" {if condition="input('cate_id1') ==$vo.cate_id"}selected{/if}>{$vo.name}</option>
+                        {/volist}
+                    </select>
+
+                </div>
+
+             <!--    <div class="form-group col-xs-2">
+                    label class="form-label">商品二级类别:</label>
+                    <select   class="form-control"  name="cate_id2" id="cate_id2" onchange="get_cate(this,'cate2')">
+                    </select>
+
+                </div> -->
+           <!--      <div class="form-group col-xs-2">
+                    <label class="form-label">商品三级类别:</label>
+                    <select   class="form-control"  name="cate_id3" id="cate_id3" onchange="get_cate(this,'cate3')">
+                    </select>
+
+                </div> -->
+                <div class="form-group">
+                    <input name="shop_name" placeholder="所属店铺" class="form-control" value="{:input('shop_name')}">
+                </div>
+                <div class="form-group">
+                    <select   class="form-control"  name="status">
+                        <option value="">-- 状态 --</option>
+                        <option value="1" {if condition="input('status') ==1"}selected{/if}>显示</option>
+                        <option value="0" {if condition="input('status') ==0 && input('status')!=null"}selected{/if}>隐藏</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select  class="form-control"  name="is_admin_recom">
+                        <option value="">-- 推荐 --</option>
+                        <option value="1" {if condition="input('is_admin_recom') ==1"}selected{/if}>是</option>
+                        <option value="0" {if condition="input('is_admin_recom') ==0 && input('is_admin_recom')!=null"}selected{/if}>否</option>
+                    </select>
+                </div>
+
+            <div class="form-group pull-right">
+                <div class="btn-group">
+                    <button class="btn btn-primary btn-outline btn-w-m btn-rec">
+                        <i class="fa fa-search"></i><span class="btn-desc">&nbsp;查询</span>
+                    </button>
+                    <a href="{:url('')}" class="btn btn-default btn-outline btn-rec">
+                        <i class="fa fa-refresh"></i><span class="btn-desc">&nbsp;重置</span>
+                    </a>
+                </div>
+            </div>
+    </form>
+    <div class="panel-footer clearfix ">
+        <div class="pull-left btn-group hidden-xs" >
+            <a href="{:U('good/admin_recom')}" class="btn btn-default del-all" js-title="新增管理员" js-unique="true">
+                <i class="fa fa-wrench" aria-hidden="true"></i>&nbsp;推荐
+            </a>
+            <a href="{:U('good/admin_norecom')}" class="btn btn-default del-all" js-title="新增管理员" js-unique="true">
+                <i class="fa fa-times" aria-hidden="true"></i>&nbsp;取消推荐
+            </a>
+            <a href="{:U('good/del')}" class="btn btn-default del-all" text="删除后将无法恢复，请谨慎操作">
+                <i class="fa fa-trash" aria-hidden="true"></i>&nbsp;删除
+            </a>
+            <a href="{:U('add')}" class="btn btn-default js-window-load" js-title="新增商品" js-unique="true" js-width="60%" js-height="80%">
+                <i class="fa fa-plus" aria-hidden="true"></i>&nbsp;新增
+            </a>
+        </div>
+        <div class="pull-right">
+        {$goods->render()}
+        </div>
+    </div>
+</div>
+<div class="table-responsive">
+        <table class="table table-hover table-bordered table-condensed">
+        <thead>
+            <tr>
+                <th width='1'><input type="checkbox" class="my-all-check" name="input[]"></th>
+                <th width="200">商品名称</th>
+                <th width="150" class="hidden-xs">商品编码</th>
+                <th width="150">商品类别</th>
+                <th width="150" class="hidden-xs">二级类别</th>
+                <th width="150" class="hidden-xs">三级类别</th>
+                <th width="150" class="hidden-xs">所属店铺</th>
+                <th width="150" class="hidden-xs">商品品牌</th>
+                <th width="150" class="hidden-xs">商品价格</th>
+                <th width="150" class="hidden-xs">销量</th>
+                <th width="100" class="hidden-xs">推荐</th>
+                <th width="100" class="hidden-xs">上|下架</th>
+                <th width="200">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {volist name="goods" id="vo"}
+            <tr>
+                   <td width='1'><input type="checkbox" value="{$vo.goods_id}" class="i-checks" name="input[]"></td>
+                    <td>{$vo.goods_name}</td>
+                    <td class="hidden-xs">{$vo.goods_sn}</td>
+                    <td>{$vo.cate_name1}</td>
+                    <td class="hidden-xs">{$vo.cate_name2}</td>
+                    <td class="hidden-xs">{$vo.cate_name3}</td>
+                    <td class="hidden-xs">{$vo.shop_name}</td>
+                    <td class="hidden-xs">{$vo.brand_name}</td>
+                    <td class="hidden-xs">{$vo.shop_price}</td>
+                    <td class="hidden-xs">{$vo.sale_count}</td>
+                    <td class="hidden-xs">
+                    {if condition="$vo.is_admin_recom eq 1"}
+                        <a href="{:U('admin_norecom',['id'=>$vo.goods_id])}" js-color="#eea236" class="btn btn-default btn-outline btn-xs js-del-btn" text="确认取消推荐" js-btn="<i class='fa fa-times fa-fw'></i>取消推荐"><span class="hidden-xs">已推荐</span></a>
+                        {elseif condition="$vo.is_admin_recom eq 0"/}
+                        <a href="{:U('admin_recom',['id'=>$vo.goods_id])}" js-color="#eea236" class="btn btn-danger btn-outline btn-xs js-del-btn" text="确认推荐" js-btn="<i class='fa fa-check fa-fw'></i>推荐"><span class="hidden-xs">未推荐</span></a>
+                    {/if}</td>
+                    <td class="hidden-xs">
+                    {if condition="$vo.is_sale eq 1"}
+                        <a href="{:U('changeStatus',['goods_id'=>$vo.goods_id,'is_sale'=>0])}" js-color="#eea236" class="btn btn-default btn-outline btn-xs js-del-btn" text="下架后商品不可见" js-btn="<i class='fa fa-times fa-fw'></i>下架"><i class="fa fa-check fa-fw"></i><span class="hidden-xs">上架</span></a>
+                        {elseif condition="$vo.is_sale eq 0"/}
+                        <a href="{:U('changeStatus',['goods_id'=>$vo.goods_id,'is_sale'=>1])}" js-color="#eea236" class="btn btn-danger btn-outline btn-xs js-del-btn" text="上架后前台可见" js-btn="<i class='fa fa-check fa-fw'></i>上架"><i class="fa fa-times fa-fw"></i><span class="hidden-xs">下架</span></a>
+                    {/if}
+                    </td>
+                    <td >
+                        <span class="btn-group">
+                            <a href="{:U('details',['goods_id'=>$vo.goods_id,'page'=>$nowpage])}" class="btn btn-default btn-outline btn-xs js-window-load" title="详情--{$vo.goods_name}"><i class="fa fa-edit fa-fw"></i><span class="hidden-xs">详情</span></a>
+
+                            <a href="{:U('del',['id'=>$vo.goods_id])}" class="btn  btn-danger btn-outline btn-xs js-del-btn" text="删除后将无法恢复,请谨慎操作！"><i class="fa fa-trash-o fa-fw"></i><span class="hidden-xs">删除</span></a>
+
+                        </span>
+                    </td>
+                </tr>
+            {/volist}
+        </tbody>
+    </table>
+    </div>
+    <script type="text/javascript">
+    function get_cate(data,type){
+        cate_id= data.value;
+        // console.log(cate_id)
+        $.ajax({
+            url:"{:url('good/ajax_get_cate')}",
+            data:{cate_id:cate_id},
+            type:"post",
+            dataType:"json",
+            success:function(msg){
+                console.log(msg)
+                var html ="";
+                html +="<option value='-1' >--请选择--</option>"
+                if(type == 'cate1'){
+                    $('#cate_id2').empty();
+                    $('#cate_id3').empty();
+                    for(var i=0;i<msg.length;i++){
+                        html += "<option value='"+msg[i].cate_id+"'}selected{/if}>"+msg[i].name+"</option>";
+                    }
+                    $(html).appendTo($("#cate_id2"));
+                }else if(type == 'cate2'){
+                    $('#cate_id3').empty();
+                    for(var i=0;i<msg.length;i++){
+                        html += "<option value='"+msg[i].cate_id+"'>"+msg[i].name+"</option>";
+                    }
+                    $(html).appendTo($("#cate_id3"));
+                }
+            }
+        })
+    }
+    </script>
