@@ -28,7 +28,6 @@ class ShopApp extends Base{
         $this->is_close();
         $this->set_shop_var();
         $this->getFriendLink();
-        $this->get_shop_adv();
         $this->getWebInfo();
         session('isLogin',1);
         $user= array(
