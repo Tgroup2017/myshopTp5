@@ -7,7 +7,7 @@ use traits\model\SoftDelete;
  * @author gucangfa
  * @version 2017/5/13
  */
-class adv extends Model{
+class Adv extends Model{
 	use SoftDelete;
     protected $deleteTime = 'delete_time';
     protected $readonly = [];//只读字段
