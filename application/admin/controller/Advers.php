@@ -100,7 +100,7 @@ class Advers extends AdminBase{
 			}
           }
         $adv_id = input('adv_id');
-        $adv_info = Adv::get($adv_id)->toArray();//广告信息
+        $adv_info = db('adv')->where('adv_id',$adv_id)->find();//广告信息
         $advpos = Advpos::get($adv_info['adv_pos']);//广告位信息
         $adv_info['advpos_name'] = $advpos['advpos_name'];
    		return view([
